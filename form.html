@@ -19,39 +19,57 @@
             <div class="form-group">
                 <label for="username">username</label>
                 <input class="form-control" id="username" type="text" placeholder="username">
+                <p id="error1">enter username</p>
 
             </div>
             <div class="form-group">
                 <label for="name">name</label>
                 <input class="form-control" id="name" type="text">
-
+                <p id="error2">enter your name </p>
             </div>
 
 
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-
+                <p id="error3">enter valid email</p>
             </div>
 
 
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <p id="error4"> enter password </p>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword2">conf . Password </label>
                 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                <p id="error6"> enter password </p>
+                <h4 id="error5">error in password!</h4>
             </div>
+
         </div>
 
 
         <button type="button"  id="btn" class="btn btn-primary">Submit</button>
 
     </form>
-    <div>
-<h1 class="area">... </h1>
+    <div class="tableContent">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">username</th>
+            <th scope="col">name</th>
+            <th scope="col">email</th>
+            <th scope="col">delet</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
     </div>
+
 <script src="form.js"> </script>
 </body>
 
