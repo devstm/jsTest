@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgba(181, 181, 181, 0.4);
+   /*1000px */
+    min-height: 500px;
+    max-height: 500px;
+}
+form{
+    background-color: white;
+    width: 50%;
+    min-height: 400px;
+    text-align: center;
+    margin-left: 25%;
+    /*margen 10 % */
+    margin-top: 0;
+    border: #d7d7d7 solid 4px;
+    border-radius: 20px;
+    box-shadow: black;
+    padding: 20px;
+
+}
+
+
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+label{
+  font-size: 22px;
+}
+
+button{
+    margin: 20px;
+}
+.form-control{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
